@@ -1,0 +1,33 @@
+
+
+/*contenedor de productos*/
+.products_cont{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+/*-------------producto individual-------------*/
+.producto .title{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.producto{
+    width: 200px;
+    background-color: #CBCBCB ;
+    padding: 7px;
+    border-radius: 0px 0px 13px;
+}
+.portada img{
+    width: 100%;
+}
+
+.producto .info{
+    margin-top: 10px;
+    background-color: rgba(210, 225, 226, 0.8);
+    border-radius: 13px;
+    padding: 5px 10px;
+}

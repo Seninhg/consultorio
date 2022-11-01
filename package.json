@@ -1,0 +1,19 @@
+{
+  "name": "consultorio_ontologico",
+  "version": "1.0.0",
+  "description": "Servidor web sencillo para consultorio ontológico",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
